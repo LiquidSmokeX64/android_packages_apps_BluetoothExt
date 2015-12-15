@@ -27,6 +27,9 @@ LOCAL_PROGUARD_ENABLED := disabled
 LOCAL_MULTILIB:= 32
 LOCAL_JNI_SHARED_LIBRARIES:= libbluetooth_jni
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
 
 
